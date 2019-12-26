@@ -1,0 +1,122 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Kallirroi Zarkadoula1
+    tagline: Quality Assurance Tester
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: iroza94@gmail.com
+    phone: (+30) 6944130718
+    website:  #do not add http://
+    linkedin: 
+    github: 
+    gitlab:
+    bitbucket:
+    twitter: 
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+
+    languages:
+      - idiom: Greek
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: French
+        level: Professional
+
+    interests:
+      - item: Dance
+        link:
+        
+      - item: Music
+        link:
+
+career-profile:
+    title: Career Profile
+    summary: |
+      Undergraduate student of Electrical and Computer Engineering Department with communication skills and work
+      experience as Quality Assurance Tester. My current research via my thesis focuses on hardware acceleration for
+      Deep Neural Networks on FPGA using Tensorflow for the verification of the results. With an interest in interactive
+      technologies, triggered mainly by my current position, I have achieved a position in Human-Computer Interaction
+      Master of University of Patras.
+
+education:
+
+    - degree: MSc in Human-Computer Interaction
+      university: University of Patras
+      time: 2019 - present
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - degree: Integrated Master of Electrical and Computer Engineering
+      university: University of Patras
+      time: 2012 - 2019
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+experiences:
+    - role: Quality Assurance Tester 
+      time: 2018 - Present
+      company: Pobuca – Sieben, Patras
+      details: |
+       
+          - Recommending interfaces that the user will find usable and efficient
+          - Working as part of a team to achieve our common targets and ensure our tasks were finished in time 
+          - Tasked with manual execution of tests in web, ios and android platforms
+          - Discovering bugs of the product and suggesting solutions-improvements
+          - Developing performance and stress testing
+          - Maintaining and creating software automated tests
+          - Ensuring that software is aligned with product's standards
+          - Monitoring development process and setting requirements
+
+    - role: internship as Quality Assurance Tester 
+      time: May - August 2018
+      company: Pobuca – Sieben, Patras
+      details: |
+
+          - Entrusted with maintenance of automated tests and creation of new ones
+          - Took charge of complex problem solving
+          - Developed and wrote test scenarios
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: VHDL programming
+        level: 98%
+
+      - name: Javascript
+        level: 88%
+
+      - name: HTML
+        level: 69%
+
+      - name:  Selenium Webdriver
+        level: 65%
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

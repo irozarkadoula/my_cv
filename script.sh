@@ -1,0 +1,1 @@
+pandoc https://irozarkadoula.github.io/online-cv/ -f html-native_divs -o Iro_Zarkadoula.pdf --pdf-engine=xelatex
