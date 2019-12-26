@@ -40,6 +40,11 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Upload artifact        
+        uses: actions/upload-artifact@master
+        with:
+          name: iro_zarkadoula
+          path: iro_zarkadoula.pdf
       
       - name: Checkout
         uses: actions/checkout@v1 
@@ -55,10 +60,6 @@ jobs:
 
              
        
-      - name: Upload artifact        
-        uses: actions/upload-artifact@master
-        with:
-          name: iro_zarkadoula
-          path: iro_zarkadoula.pdf
+ 
        
      
