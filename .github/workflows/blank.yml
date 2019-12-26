@@ -40,6 +40,17 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: push
+        uses: ad-m/github-push-action@gh-pages
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+      - name: empty commit
+        run: git commit --allow-empty -m "Empty commit"
+      - name: push empty commit
+        uses: ad-m/github-push-action@gh-pages
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
       - name: Upload artifact        
         uses: actions/upload-artifact@master
         with:
