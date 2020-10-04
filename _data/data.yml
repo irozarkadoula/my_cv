@@ -44,27 +44,22 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-
-      Second paragraph if required.
-
+      Graduate student of Electrical and Computer Engineering Department with 
+      communication skills and work experience as Quality Assurance Engineer pursuing
+      my Masters in Human-Computer Interaction. My research via my thesis focused on hardware
+      acceleration for Deep Neural Networks on FPGA using Tensorflow for the verification of the results.
+      During my master, I focus my coursework on interaction design, UX design and prototyping.
+      
 education:
     - degree: MSc in Human-Computer Interaction
       university: University of Patras
       time: 2019 - Present
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        Modules studied include
 
-          - Bullet point
-          - Bullet point
+          - Computer Graphics and Virtual Reality
+          - Interactive Technologies
+          - Software Quality
 
     - degree: MEng in Electrical and Computer Engineering
       university: University of Patras
