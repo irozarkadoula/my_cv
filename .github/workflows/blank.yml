@@ -1,74 +1,74 @@
-# name: CI
+name: CI
 
-# on: 
-#   push:
-#     branches: master
-#     paths:
-#       - _data/*
+on: 
+  push:
+    branches: master
+    paths:
+      - _data/*
 
 
-# jobs:
-#   convert_via_pandoc:
-#     runs-on: ubuntu-18.04
-#     steps:
+jobs:
+  convert_via_pandoc:
+    runs-on: ubuntu-18.04
+    steps:
 
-#       - uses: actions/checkout@v1
-#       - run: mkdir output
+      - uses: actions/checkout@v1
+      - run: mkdir output
 
-#       - uses: maxheld83/pandoc@v2
-#         with:
-#           args: "https://irozarkadoula.github.io/online-cv/ -f html-native_divs --standalone -o iro_zarkadoula.pdf --pdf-engine=xelatex" # gets appended to pandoc command
-#       - name: commit
+      - uses: maxheld83/pandoc@v2
+        with:
+          args: "https://irozarkadoula.github.io/online-cv/ -f html-native_divs --standalone -o iro_zarkadoula.pdf --pdf-engine=xelatex" # gets appended to pandoc command
+      - name: commit
  
-#         run: |
-#             git init
-#             git config user.name "irozarkadoula"
-#             git config user.email "iroza94@gmail.com"
+        run: |
+            git init
+            git config user.name "irozarkadoula"
+            git config user.email "iroza94@gmail.com"
  
 
-#       - run: |
-#              git add iro_zarkadoula.pdf
-#              git commit -m "Add file"
+      - run: |
+             git add iro_zarkadoula.pdf
+             git commit -m "Add file"
              
-#       - name: push
-#         uses: ad-m/github-push-action@master
-#         with:
-#           github_token: ${{ secrets.GITHUB_TOKEN }}
-#       - name: empty commit
-#         run: git commit --allow-empty -m "Empty commit"
-#       - name: push empty commit
-#         uses: ad-m/github-push-action@master
-#         with:
-#           github_token: ${{ secrets.GITHUB_TOKEN }}
+      - name: push
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+      - name: empty commit
+        run: git commit --allow-empty -m "Empty commit"
+      - name: push empty commit
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           
-#       - name: push
-#         uses: ad-m/github-push-action@master
-#         with:
-#           github_token: ${{ secrets.GITHUB_TOKEN }}
-#           branch: gh-pages
-#       - name: empty commit
-#         run: git commit --allow-empty -m "Empty commit"
-#       - name: push empty commit
-#         uses: ad-m/github-push-action@master
-#         with:
-#           github_token: ${{ secrets.GITHUB_TOKEN }}
-#           branch: gh-pages
-#       - name: Upload artifact        
-#         uses: actions/upload-artifact@master
-#         with:
-#           name: iro_zarkadoula
-#           path: iro_zarkadoula.pdf
+      - name: push
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: gh-pages
+      - name: empty commit
+        run: git commit --allow-empty -m "Empty commit"
+      - name: push empty commit
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: gh-pages
+      - name: Upload artifact        
+        uses: actions/upload-artifact@master
+        with:
+          name: iro_zarkadoula
+          path: iro_zarkadoula.pdf
       
-#       - name: Checkout
-#         uses: actions/checkout@v1 
-#       - name: deploy
-#         uses: peaceiris/actions-gh-pages@v2
-#         env: 
-#           ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-#           PUBLISH_BRANCH: master
-#           PUBLISH_DIR: ./public
-#         with: 
-#           keepFiles: true
+      - name: Checkout
+        uses: actions/checkout@v1 
+      - name: deploy
+        uses: peaceiris/actions-gh-pages@v2
+        env: 
+          ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          PUBLISH_BRANCH: master
+          PUBLISH_DIR: ./public
+        with: 
+          keepFiles: true
  
 
              
