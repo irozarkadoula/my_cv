@@ -245,10 +245,12 @@ p {
         font-size: 14px;
         margin-top: 0;
         margin-bottom: 12px;
+	width: 35%;
     }
     .level-bar {
         height: 12px;
         background: $smoky-white;
+	width: 65%;
     }
     .level-bar-inner {
         height: 12px;
