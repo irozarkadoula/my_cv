@@ -62,7 +62,7 @@ education:
           - Software Quality
           
         Thesis title: 
-          - Effectiveness of serious game designs for software developers
+          - Effectiveness of serious game designs for software developers supervised by Professor Michalis Xenos
 
     - degree: MEng in Electrical and Computer Engineering
       university: University of Patras
@@ -77,52 +77,36 @@ education:
         Thesis Title: 
           - “Hardware Design for Deep Learning” supervised by Associate Professor Vassilis Paliouras
        
-          
-       
-
 experiences:
     - role: Grader
       time: 04/2020 - 06/2020
       company: Interactive Technologies Laboratory, Department of Electrical and Computer Engineering, University of Patras, Patras
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
 
-          - Bullet point
-          - Bullet point
+          - Grading of the laboratory exercises of Procedural Programming course.
 
     - role: Quality Assurance Engineer
       time: 08/2018 – 12/2019
       company: Pobuca - Sieben, Patras
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
 
-          - Bullet point
-          - Bullet point
+          - Recommending interfaces that the user will find usable and efficient
+          - Working as part of a team to achieve our common targets and ensure our tasks were finished in time
+          - Tasked with manual execution of tests in web, ios and android platforms
+          - Discovering bugs of the product and suggesting solutions-improvements
+          - Developing performance and stress testing
+          - Maintaining and creating software automated tests
+          - Ensuring that software is aligned with product's standards
+          - Monitoring development process and setting requirements 
 
     - role: Quality Assurance Engineer intern
       time: 05/2018 – 07/2019
       company: Pobuca - Sieben, Patras
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
 
-          - Bullet point
-          - Bullet point
+          - Entrusted with maintenance of automated tests and creation of new ones
+          - Took charge of complex problem solving
+          - Developed and wrote test scenarios
 
 projects:
     title: Projects
